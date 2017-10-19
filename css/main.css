@@ -1,0 +1,54 @@
+*{
+  box-sizing: :border-box;
+}
+
+/*posicionando la caja roja*/
+.red{
+  background-color: red;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/*posicionando la caja morada*/
+#purple{
+  background-color: purple;
+  padding: 80px;
+  bottom: 70px;
+  right: 70px;
+  position: absolute;
+}
+
+/*posicionando la caja amarilla*/
+#yellow{
+  background-color: yellow;
+  padding: 40px;
+  top: 70px;
+  left: 70px;
+  position: absolute;
+}
+
+/*segunda caja*/
+.blue{
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+/*posicionando la caja verde*/
+#green{
+  background-color: green;
+  padding: 80px;
+  bottom: 70px;
+  right: 70px;
+  position: absolute;
+}
+
+/*posicionando la caja negra*/
+#black{
+  background-color: black;
+  padding: 35px;
+  position: absolute;
+}
